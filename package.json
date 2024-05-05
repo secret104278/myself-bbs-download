@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "extension": "latest"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm", 
+    "dev": "extension dev",
+    "start": "extension start",
+    "build": "extension build"
+  },
+  "dependencies": {},
+  "name": "myself-bbs-download",
+  "private": true,
+  "version": "0.0.0"
+}
